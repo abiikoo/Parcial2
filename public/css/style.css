@@ -1,0 +1,168 @@
+/* ============================
+   ESTILO GENERAL – TEMA LILA
+============================ */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3e8ff; /* Lila claro de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 14px rgba(140, 0, 255, 0.15);
+    border-top: 6px solid #9b4dff; /* Lila fuerte */
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #6a0dad;
+    margin-bottom: 10px;
+}
+
+/* Campos */
+.campo {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #4a0072;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d1b3ff;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    background: #faf7ff;
+    transition: 0.25s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #9b4dff;
+    box-shadow: 0 0 6px rgba(155, 77, 255, 0.4);
+}
+
+/* Checkboxes */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+    color: #4a0072;
+    cursor: pointer;
+}
+
+/* Botón */
+button {
+    display: block;
+    width: 100%;
+    background: #9b4dff;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #7a2ce0;
+    box-shadow: 0 0 10px rgba(155, 77, 255, 0.4);
+}
+
+/* Links */
+a {
+    color: #7a2ce0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================
+   TABLAS (Reporte.php)
+============================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    font-size: 0.95em;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #9b4dff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #e6d6ff;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: #f8f2ff;
+}
+
+/* ============================
+   Mensajes (guardar.php)
+============================ */
+
+.ok {
+    background: #e7d4ff;
+    border-left: 6px solid #7a2ce0;
+    padding: 12px;
+    color: #4a0072;
+    border-radius: 8px;
+}
+
+.error {
+    background: #ffe0f0;
+    border-left: 6px solid #ff4d94;
+    padding: 12px;
+    color: #9f003b;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #4a0072;
+    font-size: 0.9em;
+}
